@@ -1,0 +1,7 @@
+list_of_integers = list(map(int, input().split()))
+min_value = min(list_of_integers)
+max_value = max(list_of_integers)
+list_sum = sum(list_of_integers)
+print(f'The minimum number is {min_value}')
+print(f'The maximum number is {max_value}')
+print(f'The sum number is: {list_sum}')
